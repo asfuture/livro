@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  livraria-angular:
+    image: livraria-angular
+    build:
+      context: .
+    ports:
+      - 8081:80
